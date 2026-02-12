@@ -1,0 +1,59 @@
+.app-root {
+  min-height: 100vh;
+  background: #05070c;
+  color: white;
+  font-family: system-ui;
+}
+
+.page-container {
+  padding-bottom: 70px; /* space for bottom nav */
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 65px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(15, 15, 20, 0.95);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.bottom-nav button {
+  background: none;
+  border: none;
+  color: #aaa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.bottom-nav button:hover {
+  color: #4da3ff;
+}
+
+/* Fake login overlay */
+.login-overlay {
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.login-btn {
+  padding: 12px 18px;
+  border-radius: 12px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+}
