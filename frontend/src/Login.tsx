@@ -62,7 +62,7 @@ const styles = {
     backgroundColor: "#f5f5f5",
   },
   form: {
-    background: "white",
+    background: "black",
     padding: "2rem",
     borderRadius: "10px",
     boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
